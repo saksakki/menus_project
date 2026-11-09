@@ -6,7 +6,7 @@ let foodList = [];
 // 요청 http://127.0.0.1:8000/menus
 // 이것을 수정에 이용한다면 서버는 모든 정보를 줄 것이고, 클라이언트는 다시 찾아야 한다.
 // 서버나 클라이언트 모두에게 좋은 방법은 아님.
-API_SERVER = "https://menus-project-mzv5.onrender.com/"
+API_SERVER = "https://menus-project-mzv5.onrender.com"
 // API_SERVER = "http://127.0.0.1:8000/"
 
 async function getAllMenus() {
