@@ -1,0 +1,15 @@
+## python backend 개발에서 필요한 설치 프로그램
+fastapi[standard]
+uvicorn
+pydantic
+
+# requirements.txt를 작성한 후 다음 명령어로 프로그램을 설치합니다.
+# 설치하기 전에는 pip를 최신버전으로 업그레이드합니다. 아래에 있어요
+# pip install -r requirements.txt
+# pip 명령어는 프로그램 설치 명령어
+
+# 아래코드는 pip 명령어를 최신 버전으로 업그레이드하는 코드
+# python.exe -m pip install --upgrade pip
+
+# FastAPI 실행
+# uvicorn main:a --host 0.0.0.0 --prot 8000 --reload
